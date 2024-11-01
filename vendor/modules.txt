@@ -148,7 +148,7 @@ github.com/grpc-ecosystem/grpc-gateway/v2/utilities
 # github.com/hashicorp/go-hclog v1.6.3
 ## explicit; go 1.13
 github.com/hashicorp/go-hclog
-# github.com/hashicorp/go-plugin v1.6.1
+# github.com/hashicorp/go-plugin v1.6.2
 ## explicit; go 1.17
 github.com/hashicorp/go-plugin
 github.com/hashicorp/go-plugin/internal/cmdrunner
@@ -158,13 +158,15 @@ github.com/hashicorp/go-plugin/runner
 # github.com/hashicorp/go-uuid v1.0.3
 ## explicit
 github.com/hashicorp/go-uuid
-# github.com/hashicorp/terraform-plugin-framework v1.12.0
+# github.com/hashicorp/terraform-plugin-framework v1.13.0
 ## explicit; go 1.22.0
 github.com/hashicorp/terraform-plugin-framework/attr
 github.com/hashicorp/terraform-plugin-framework/attr/xattr
 github.com/hashicorp/terraform-plugin-framework/datasource
 github.com/hashicorp/terraform-plugin-framework/datasource/schema
 github.com/hashicorp/terraform-plugin-framework/diag
+github.com/hashicorp/terraform-plugin-framework/ephemeral
+github.com/hashicorp/terraform-plugin-framework/ephemeral/schema
 github.com/hashicorp/terraform-plugin-framework/function
 github.com/hashicorp/terraform-plugin-framework/internal/fromproto5
 github.com/hashicorp/terraform-plugin-framework/internal/fromproto6
@@ -197,7 +199,7 @@ github.com/hashicorp/terraform-plugin-framework/schema/validator
 github.com/hashicorp/terraform-plugin-framework/tfsdk
 github.com/hashicorp/terraform-plugin-framework/types
 github.com/hashicorp/terraform-plugin-framework/types/basetypes
-# github.com/hashicorp/terraform-plugin-go v0.24.0
+# github.com/hashicorp/terraform-plugin-go v0.25.0
 ## explicit; go 1.22.0
 github.com/hashicorp/terraform-plugin-go/internal/logging
 github.com/hashicorp/terraform-plugin-go/tfprotov5
@@ -369,7 +371,7 @@ google.golang.org/genproto/googleapis/api/httpbody
 # google.golang.org/genproto/googleapis/rpc v0.0.0-20240820151423-278611b39280
 ## explicit; go 1.21
 google.golang.org/genproto/googleapis/rpc/status
-# google.golang.org/grpc v1.66.2
+# google.golang.org/grpc v1.67.1
 ## explicit; go 1.21
 google.golang.org/grpc
 google.golang.org/grpc/attributes
@@ -432,8 +434,8 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-# google.golang.org/protobuf v1.34.2
-## explicit; go 1.20
+# google.golang.org/protobuf v1.35.1
+## explicit; go 1.21
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
